@@ -19,8 +19,8 @@
  
             <ol>
             
-                <li>
-                
+                <li  
+
                     <h3>How many wheels does a skateboard have?</h3>
                     
                     <div id="q1">
@@ -52,6 +52,8 @@
                 <li>
                 
                     <h3>Welchen Stil gibt es im Skateboarding?</h3>
+
+                    <div id="q2">
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
@@ -71,6 +73,8 @@
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
                         <label for="question-2-answers-D">D) Slalom</label>
+                    </div>
+
                     </div>
                 
                 </li>

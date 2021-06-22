@@ -37,3 +37,9 @@ h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; lett
    background-repeat: no-repeat;
    width: 350px;
 }
+
+#q2 {
+   background-image: url("vert.jpg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
