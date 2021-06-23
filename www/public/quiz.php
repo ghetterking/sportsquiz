@@ -83,6 +83,8 @@
                 
                     <h3>Wann wurde Skateboarding in die Olympischen Spiele aufgenommen?</h3>
                     
+                    <div id="q3">
+
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
                         <label for="question-3-answers-A">A) 1933</label>
@@ -102,6 +104,8 @@
                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
                         <label for="question-3-answers-D">D) 1995</label>
                     </div>
+
+                    </div>
                 
                 </li>
                 
@@ -109,6 +113,8 @@
                 
                     <h3>Wann hat Skateboarding seine Premiere an den Olympischen Spielen?</h3>
                     
+                    <div id="q1">
+
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
                         <label for="question-4-answers-A">A) 2025</label>
@@ -128,12 +134,16 @@
                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
                         <label for="question-4-answers-D">D) 1995</label>
                     </div>
+
+                    </div>
                 
                 </li>
                 
                 <li>
                 
                     <h3>Who is a famous skateboarder?</h3>
+
+                    <div id="q2">
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
@@ -154,12 +164,16 @@
                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
                         <label for="question-5-answers-D">D) Mike Tyson</label>
                     </div>
+
+                    </div>
                 
                 </li>
 
                 <li>
                 
                     <h3>Where was skateboarding invented?</h3>
+
+                    <div id="q3">
                     
                     <div>
                         <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
@@ -180,6 +194,8 @@
                         <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
                         <label for="question-6-answers-D">D) Portugal</label>
                     </div>
+
+                    </div>
                 
                 </li>
 
@@ -187,6 +203,8 @@
                 
                     <h3>What is a famous skateboard trick?</h3>
                     
+                    <div id="q1">
+
                     <div>
                         <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
                         <label for="question-7-answers-A">A) Backtrip</label>
@@ -206,6 +224,8 @@
                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
                         <label for="question-7-answers-D">D) FS Strip</label>
                     </div>
+
+                    </div>
                 
                 </li>
 
@@ -213,6 +233,8 @@
                 
                     <h3>Aus welchem Material werden Skateboards hergestellt?</h3>
                     
+                    <div id="q2">
+
                     <div>
                         <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
                         <label for="question-8-answers-A">A) 7 Lagen kanadisches Ahornholz</label>
@@ -232,6 +254,8 @@
                         <input type="radio" name="question-10-answers" id="question-8-answers-D" value="D" />
                         <label for="question-8-answers-D">D) 9 Lagen Fichtenholz</label>
                     </div>
+
+                    </div>
                 
                 </li>
 
@@ -239,6 +263,8 @@
                 
                     <h3>Which is a famous Skateboarding Magazine?</h3>
                     
+                    <div id="q3">
+
                     <div>
                         <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
                         <label for="question-9-answers-A">A) Basher Magazine</label>
@@ -258,6 +284,8 @@
                         <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
                         <label for="question-9-answers-D">D) Transworld Skateboarding</label>
                     </div>
+
+                    </div>
                 
                 </li>
 
@@ -265,6 +293,8 @@
                 
                     <h3>Welches ist eine bekannte Skateboard-Marke?</h3>
                     
+                    <div id="q1">
+
                     <div>
                         <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
                         <label for="question-10-answers-A">A) Power Skateboards</label>
@@ -283,6 +313,8 @@
                     <div>
                         <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
                         <label for="question-10-answers-D">D) Mega Skatebaords</label>
+                    </div>
+
                     </div>
                 
                 </li>

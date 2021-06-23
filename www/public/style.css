@@ -42,3 +42,8 @@ h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; lett
    background-image: url("vert.jpg");
    background-repeat: no-repeat;
 }
+
+#q3 {
+   background-image: url("olymp.jpg");
+   background-repeat: no-repeat;
+}
