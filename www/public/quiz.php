@@ -113,7 +113,7 @@
                 
                     <h3>Wann hat Skateboarding seine Premiere an den Olympischen Spielen?</h3>
                     
-                    <div id="q4">
+                    <div id="q1">
 
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
