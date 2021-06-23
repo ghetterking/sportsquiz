@@ -1,0 +1,96 @@
+input {
+    background-color: #8c00fc;
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 14px;
+}
+
+label {
+    background-color: hotpink;
+}
+
+body {
+    background-color: #0827F5;
+    border: solid;
+    border-radius: 200px;
+    border-color: black;
+    border-width: 30px;
+    margin: 1%;
+}
+
+h1 {
+    font-size: xx-large;
+    color: fuchsia;
+    border: solid;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 2px;
+    padding: 0 27% 0 27%;
+    background-color: springgreen;
+    margin: 1%;
+}
+
+h3 {
+    font-size: x-large;
+    color: #01fe01;
+    padding: 1%;
+    background-color: red;
+    border: solid;
+    border-radius: 8px;
+    border-color: black;
+    border-width: 2px;
+    margin: 1%;
+}
+
+#page-wrap {
+    width: 40%;
+}
+
+.question {
+    width: 99%;
+    padding: 1%;
+    background-color: yellow;
+    border: solid;
+    border-radius: 8px;
+    border-color: black;
+    border-width: 2px;
+    margin: 1%;
+}
+
+li {
+    padding: 1%;
+    background-color: #40A4FF;
+    border: solid;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 2px;
+    margin: 1%;
+}
+
+ol {
+    padding: 3%;
+    background-color: orange;
+    border: solid;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 2px;
+    margin: 1%;
+}
+
+ul {
+    padding: 3%;
+    background-color: orange;
+    border: solid;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 2px;
+    margin: 1%;
+}
+
+div {
+    padding: 5% 28% 5% 28%;
+}
+
+h2 {
+    font-size: xx-large;
+}

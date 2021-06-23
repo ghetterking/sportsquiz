@@ -1,8 +1,18 @@
-body{ font: 14px Georgia, serif; }
+body{ 
+   font: 14px Georgia, serif;
+}
  
-#page-wrap { width: 500px; margin: 0 auto;}
+#page-wrap {
+   width: 500px;
+   margin: 0 auto;
+}
  
-h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
+h1  {
+   margin: 25px 0;
+   font: 18px Georgia, Serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
  
 #quiz input {
     vertical-align: middle;
@@ -21,7 +31,9 @@ h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; lett
 }
  
 #quiz h3 {
-   font-size: 17px; margin: 0 0 1px 0; color: #666;
+   font-size: 17px;
+   margin: 0 0 1px 0;
+   color: #666;
 }
  
 #results {
