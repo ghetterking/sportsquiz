@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset=UTF-8" />
+        <meta charset="UTF-8" />
         <title>PHP Quiz</title>
         <link rel="stylesheet" type="text/css" href="style mockup.css" />
     </head>
