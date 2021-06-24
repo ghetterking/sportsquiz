@@ -1,6 +1,6 @@
 
 body{ font: 25px Georgia, serif; 
-    background-color: rgb(100, 197, 197);
+    background-color: rgb(63, 9, 65);
 
 }
  
@@ -25,63 +25,64 @@ h1  { margin: 35px 0; font: 35px Georgia, Serif; text-transform: uppercase; lett
 }
  
 #quiz h3 {
-   font-size: 30px; margin: 0 0 5px 0; color: rgb(105, 71, 71);
+   font-size: 30px; margin: 0 0 5px 0; color: rgb(99, 60, 89);
 }
  
-#results {
-    font: 50px Georgia, Serif;
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgba(226, 148, 216, 0.973);
 }
-#q1 {
+
+.card-body {
+   max-height: fit-content;
+   background-color: white;
+   width: 400px;
+}
+
+.card-bottom {
+   width: 400px;
+   height: 230px;
+   background-repeat: no-repeat;
+}
+
+#card_q1 {
    background-image: url("Quiz 1.jpeg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-
-
-#q2 {
+#card_q2 {
    background-image: url("Quiz 2.jpg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-
-#q3 {
+#card_q3 {
    background-image: url("Quiz 3.jpg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-
-#q4 {
+#card_q4 {
    background-image: url("Quiz 4.jpeg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-#q5 {
+#card_q5 {
    background-image: url("Quiz 5.jpg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-#q6 {
+#card_q6 {
    background-image: url("Quiz 6.jpeg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-#q7 {
+#card_q7 {
    background-image: url("Quiz 7.jpeg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-#q8 {
+#card_q8 {
    background-image: url("Quiz 8.jpeg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-#q9 {
+#card_q9 {
    background-image: url("Quiz 9.jpeg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
-#q10 {
+#card_q10 {
    background-image: url("Quiz 10.jpeg");
-   background-repeat: no-repeat;
-   width: 350px;
+   background-size: 100%;
 }
