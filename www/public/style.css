@@ -6,7 +6,7 @@ body{ font: 25px Georgia, serif;
  
 #page-wrap { width: 500px; margin: 0 auto;}
  
-h1  { margin: 35px 0; font: 35px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
+h1  { margin: 35px 0; font: 35px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; color: rgba(226, 148, 216, 0.973); }
  
 #quiz input {
     vertical-align: middle;
@@ -30,7 +30,7 @@ h1  { margin: 35px 0; font: 35px Georgia, Serif; text-transform: uppercase; lett
  
 label {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 22px;
     background-color: rgba(226, 148, 216, 0.973);
 }
 
@@ -45,6 +45,15 @@ label {
    height: 230px;
    background-repeat: no-repeat;
 }
+.submitbtn{
+   font-size: large;
+   width: 150px;
+   height: 30px; 
+   background-color: rgb(150, 25, 119); 
+   width: 200px;
+   height: 50px;
+   background-repeat: no-repeat;
+} 
 
 #card_q1 {
    background-image: url("Quiz 1.jpeg");
