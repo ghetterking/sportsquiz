@@ -1,19 +1,19 @@
 
-body{ font: 14px Georgia, serif; 
-    background-color: rgb(192, 236, 236);
+body{ font: 25px Georgia, serif; 
+    background-color: rgb(100, 197, 197);
 
 }
  
 #page-wrap { width: 500px; margin: 0 auto;}
  
-h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
+h1  { margin: 35px 0; font: 35px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
  
 #quiz input {
     vertical-align: middle;
 }
  
 #quiz ol {
-   margin: 0 0 10px 20px;
+   margin: 0 0 20px 20px;
 }
  
 #quiz ol li {
@@ -25,21 +25,63 @@ h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; lett
 }
  
 #quiz h3 {
-   font-size: 17px; margin: 0 0 1px 0; color: #666;
+   font-size: 30px; margin: 0 0 5px 0; color: rgb(105, 71, 71);
 }
  
 #results {
-    font: 44px Georgia, Serif;
+    font: 50px Georgia, Serif;
 }
-
 #q1 {
-   background-image: url("wheel.jpg");
+   background-image: url("Quiz 1.jpeg");
    background-repeat: no-repeat;
    width: 350px;
 }
 
+
 #q2 {
-   background-image: url("vert.jpg");
+   background-image: url("Quiz 2.jpg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
+
+#q3 {
+   background-image: url("Quiz 3.jpg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
+
+#q4 {
+   background-image: url("Quiz 4.jpeg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
+#q5 {
+   background-image: url("Quiz 5.jpg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
+#q6 {
+   background-image: url("Quiz 6.jpeg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
+#q7 {
+   background-image: url("Quiz 7.jpeg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
+#q8 {
+   background-image: url("Quiz 8.jpeg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
+#q9 {
+   background-image: url("Quiz 9.jpeg");
+   background-repeat: no-repeat;
+   width: 350px;
+}
+#q10 {
+   background-image: url("Quiz 10.jpeg");
    background-repeat: no-repeat;
    width: 350px;
 }

@@ -5,7 +5,7 @@
 <head>
  <meta charset=UTF-8" />
  
- <title>PHP Quiz</title>
+ <title> My Sport Quiz</title>
  
  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -14,7 +14,7 @@
  
  <div id="page-wrap">
  
- <h1>Skateboard Quiz Results</h1>
+ <h1>My Sport Quiz results</h1>
  
         <?php
             
@@ -31,16 +31,16 @@
         
             $totalCorrect = 0;
             
-            if ($answer1 == "D") { $totalCorrect++; }
+            if ($answer1 == "a") { $totalCorrect++; }
             if ($answer2 == "A") { $totalCorrect++; }
             if ($answer3 == "C") { $totalCorrect++; }
             if ($answer4 == "B") { $totalCorrect++; }
-            if ($answer5 == "B") { $totalCorrect++; }
-            if ($answer6 == "C") { $totalCorrect++; }
+            if ($answer5 == "D") { $totalCorrect++; }
+            if ($answer6 == "D") { $totalCorrect++; }
             if ($answer7 == "B") { $totalCorrect++; }
             if ($answer8 == "A") { $totalCorrect++; }
-            if ($answer9 == "D") { $totalCorrect++; }
-            if ($answer10 == "B") { $totalCorrect++; }
+            if ($answer9 == "B") { $totalCorrect++; }
+            if ($answer10 == "C") { $totalCorrect++; }
             
             echo "<div id='results'>$totalCorrect / 10 correct</div>";
             

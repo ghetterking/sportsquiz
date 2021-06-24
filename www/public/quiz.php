@@ -3,7 +3,7 @@
 <head>
  <meta charset=UTF-8" />
  
- <title>PHP QUIZ | Webdevtrick.com</title>
+ <title>Sport QUIZ | Webdevtrick.com</title>
  
  <link rel="stylesheet" type="text/css" href="style.css" />
  <link rel="stylesheet" href="result.php">
@@ -13,36 +13,36 @@
  
  <div id="page-wrap">
  
- <h1>Skateboard Quiz</h1>
+ <h1>Sport Quiz</h1>
  
  <form action="result.php" method="post" id="quiz">
  
             <ol>
             
-                <li  
+                <li>  
 
-                    <h3>How many wheels does a skateboard have?</h3>
+                    <h3>What sport is described as “the beautiful game?</h3>
                     
                     <div id="q1">
 
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) 1 </label>
+                        <label for="question-1-answers-A">A) football </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) 2</label>
+                        <label for="question-1-answers-B">B) Ballet-Dance </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) 3</label>
+                        <label for="question-1-answers-C">C) Valleyball </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) 4</label>
+                        <label for="question-1-answers-D">D) Basketball </label>
                     </div>
                 
                     </div>
@@ -51,28 +51,28 @@
                 
                 <li>
                 
-                    <h3>Welchen Stil gibt es im Skateboarding?</h3>
+                    <h3> Which country won the first ever football world cup?</h3>
 
                     <div id="q2">
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-                        <label for="question-2-answers-A">A) Street</label>
+                        <label for="question-2-answers-A">A) Uruguay </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-                        <label for="question-2-answers-B">B) Steps</label>
+                        <label for="question-2-answers-B">B) Egypt </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-                        <label for="question-2-answers-C">C) Uphill</label>
+                        <label for="question-2-answers-C">C) China </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-                        <label for="question-2-answers-D">D) Slalom</label>
+                        <label for="question-2-answers-D">D) Usa </label>
                     </div>
 
                     </div>
@@ -81,208 +81,226 @@
                 
                 <li>
                 
-                    <h3>Wann wurde Skateboarding in die Olympischen Spiele aufgenommen?</h3>
-                    
+                    <h3>How many regulation strokes are there in swimming?</h3>
+
+                    <div id="q3">
+
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-                        <label for="question-3-answers-A">A) 1933</label>
+                        <label for="question-3-answers-A">A) 2 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-                        <label for="question-3-answers-B">B) 1968</label>
+                        <label for="question-3-answers-B">B) 6 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-                        <label for="question-3-answers-C">C) 2016</label>
+                        <label for="question-3-answers-C">C) 4 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-                        <label for="question-3-answers-D">D) 1995</label>
+                        <label for="question-3-answers-D">D) 1 </label>
                     </div>
+
+                    </div>
+
                 
                 </li>
                 
                 <li>
                 
-                    <h3>Wann hat Skateboarding seine Premiere an den Olympischen Spielen?</h3>
-                    
+                    <h3> How long is the total distance of a marathon?</h3>
+
+                    <div id="q4">
+
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-                        <label for="question-4-answers-A">A) 2025</label>
+                        <label for="question-4-answers-A">A)  20.16 kilometres </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-                        <label for="question-4-answers-B">B) 2021</label>
+                        <label for="question-4-answers-B">B)  42.16 kilometres </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-                        <label for="question-4-answers-C">C) 2030</label>
+                        <label for="question-4-answers-C">C)  100.00 kilometres</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-                        <label for="question-4-answers-D">D) 1995</label>
+                        <label for="question-4-answers-D">D)  40.00 kilometres</label>
                     </div>
                 
                 </li>
                 
                 <li>
                 
-                    <h3>Who is a famous skateboarder?</h3>
+                    <h3>How many gold medals has Usain Bolt won?</h3>
+
+                    <div id="q5">
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-                        <label for="question-5-answers-A">A) Justin Bieber</label>
+                        <label for="question-5-answers-A">A) 10 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-                        <label for="question-5-answers-B">B) Tony Hawk</label>
+                        <label for="question-5-answers-B">B) 4 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-                        <label for="question-5-answers-C">C) Toni Braxton</label>
+                        <label for="question-5-answers-C">C) 7 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-                        <label for="question-5-answers-D">D) Mike Tyson</label>
+                        <label for="question-5-answers-D">D) 8 </label>
                     </div>
                 
                 </li>
 
                 <li>
                 
-                    <h3>Where was skateboarding invented?</h3>
-                    
+                    <h3>What is his world record time for the 100 metres?</h3>
+
+                    <div id="q6">
                     <div>
                         <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
-                        <label for="question-6-answers-A">A) Switzerland</label>
+                        <label for="question-6-answers-A">A) 9.55 seconds </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
-                        <label for="question-6-answers-B">B) Indonesia</label>
+                        <label for="question-6-answers-B">B) 9.52 seconds </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
-                        <label for="question-6-answers-C">C) California</label>
+                        <label for="question-6-answers-C">C) 11.00 seconds </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
-                        <label for="question-6-answers-D">D) Portugal</label>
+                        <label for="question-6-answers-D">D) 9.58 seconds </label>
                     </div>
                 
                 </li>
 
                 <li>
                 
-                    <h3>What is a famous skateboard trick?</h3>
-                    
+                    <h3>What five colours make up the Olympic rings?</h3>
+
+                    <div id="q7">
+
                     <div>
                         <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
-                        <label for="question-7-answers-A">A) Backtrip</label>
+                        <label for="question-7-answers-A">A) orange, black, green, red and yellow </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
-                        <label for="question-7-answers-B">B) 360 Flip</label>
+                        <label for="question-7-answers-B">B) Blue, black, green, red and yellow </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
-                        <label for="question-7-answers-C">C) BS Nailslide</label>
+                        <label for="question-7-answers-C">C) Blue, black, grey, red and yellow </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-                        <label for="question-7-answers-D">D) FS Strip</label>
+                        <label for="question-7-answers-D">D) Blue, black, green, red and orange </label>
                     </div>
                 
                 </li>
 
                 <li>
                 
-                    <h3>Aus welchem Material werden Skateboards hergestellt?</h3>
-                    
+                    <h3>What has Muhammad Ali’s original name?</h3>
+
+                    <div id="q8">
+
                     <div>
                         <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
-                        <label for="question-8-answers-A">A) 7 Lagen kanadisches Ahornholz</label>
+                        <label for="question-8-answers-A">A) Cassius Clay </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
-                        <label for="question-8-answers-B">B) 10 Lagen Eichenholz</label>
+                        <label for="question-8-answers-B">B) Markus Klay </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
-                        <label for="question-8-answers-C">C) 5 Lagen Buchenholz</label>
+                        <label for="question-8-answers-C">C) Markus Meier </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-10-answers" id="question-8-answers-D" value="D" />
-                        <label for="question-8-answers-D">D) 9 Lagen Fichtenholz</label>
+                        <label for="question-8-answers-D">D) Harry Peter </label>
                     </div>
                 
                 </li>
 
                 <li>
                 
-                    <h3>Which is a famous Skateboarding Magazine?</h3>
-                    
+                    <h3>What is the only sport to be played on the moon?</h3>
+
+                    <div id="q9">
+
                     <div>
                         <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
-                        <label for="question-9-answers-A">A) Basher Magazine</label>
+                        <label for="question-9-answers-A">A) Ballet- Dance </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
-                        <label for="question-9-answers-B">B) Flatearth Skateboarding</label>
+                        <label for="question-9-answers-B">B) Golf </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-9-answers" id="question-9-answers-C" value="C" />
-                        <label for="question-9-answers-C">C) Chinese International Skateboarding</label>
+                        <label for="question-9-answers-C">C) Diving </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
-                        <label for="question-9-answers-D">D) Transworld Skateboarding</label>
+                        <label for="question-9-answers-D">D) Swimming </label>
                     </div>
                 
                 </li>
 
                 <li>
                 
-                    <h3>Welches ist eine bekannte Skateboard-Marke?</h3>
-                    
+                    <h3>How many NBA championships did Michael Jordan win with the Chicago Bulls?</h3>
+
+                    <div id="q10">
+
                     <div>
                         <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
-                        <label for="question-10-answers-A">A) Power Skateboards</label>
+                        <label for="question-10-answers-A">A) 2 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-10-answers" id="question-10-answers-B" value="B" />
-                        <label for="question-10-answers-B">B) Girl Skateboards</label>
+                        <label for="question-10-answers-B">B) 5 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-10-answers" id="question-10-answers-C" value="C" />
-                        <label for="question-10-answers-C">C) Banana Skateboards</label>
+                        <label for="question-10-answers-C">C) 6 </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
-                        <label for="question-10-answers-D">D) Mega Skatebaords</label>
+                        <label for="question-10-answers-D">D) 8 </label>
                     </div>
                 
                 </li>
