@@ -135,7 +135,7 @@
                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
                         <label for="question-4-answers-D">D)  40.00 kilometres</label>
                     </div>
-                
+                    </div>
                 </li>
                 
                 <li>
@@ -163,7 +163,7 @@
                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
                         <label for="question-5-answers-D">D) 8 </label>
                     </div>
-                
+                    </div>
                 </li>
 
                 <li>
@@ -190,7 +190,9 @@
                         <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
                         <label for="question-6-answers-D">D) 9.58 seconds </label>
                     </div>
-                
+
+                    </div>
+
                 </li>
 
                 <li>
@@ -202,21 +204,26 @@
                     <div>
                         <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
                         <label for="question-7-answers-A">A) orange, black, green, red and yellow </label>
+
                     </div>
                     
                     <div>
                         <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
                         <label for="question-7-answers-B">B) Blue, black, green, red and yellow </label>
+
                     </div>
                     
                     <div>
                         <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
                         <label for="question-7-answers-C">C) Blue, black, grey, red and yellow </label>
+
                     </div>
                     
                     <div>
+
                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
                         <label for="question-7-answers-D">D) Blue, black, green, red and orange </label>
+
                     </div>
                 
                 </li>
@@ -245,6 +252,8 @@
                     <div>
                         <input type="radio" name="question-10-answers" id="question-8-answers-D" value="D" />
                         <label for="question-8-answers-D">D) Harry Peter </label>
+
+                    </div>
                     </div>
                 
                 </li>
@@ -274,6 +283,9 @@
                         <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
                         <label for="question-9-answers-D">D) Swimming </label>
                     </div>
+
+                    </div>
+
                 
                 </li>
 
@@ -301,6 +313,7 @@
                     <div>
                         <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
                         <label for="question-10-answers-D">D) 8 </label>
+                    </div>
                     </div>
                 
                 </li>
