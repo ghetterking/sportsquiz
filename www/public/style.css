@@ -3,9 +3,9 @@ body{ font: 14px Georgia, serif;
     background-color: rgb(72, 212, 67);
 
 }
- 
+
 #page-wrap { width: 500px; margin: 0 auto;}
- 
+
 h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
  
 #quiz input {
