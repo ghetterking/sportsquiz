@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/build/css/mockUp.css">
+    <title>Quiz</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <div class="row">
+        <div id="page-wrap">
+            <img src="/src/images/quiz-neon.jpg" alt="neon board" style="width: 100%; height: 200%;"><br>
+            <h1 class="glow">Where Summer Olympics were held?</h1>
+            <div class="question container" id="quiz">
+                <h2>In 1896?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) <img src="/src/images/Flag_of_Greece.svg.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) <img src="/src/images/Flag_of_Brazil.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) <img src="/src/images/Flag_of_Italy.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) <img src="/src/images/swedenFlag.jpg"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+    <!----       
+            <div class="question container">
+                <h2>In 1900?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+                        <label for="question-2-answers-A">A) <img src="/src/images/francia-100x150.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+                        <label for="question-2-answers-B">B) <img src="/src/images/"Flag_of_Spain.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+                        <label for="question-2-answers-C">C) <img src="/src/images/Flag_of_Mexico.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+                        <label for="question-2-answers-D">D) <img src="/src/images/United_Kingdom.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1904?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+                        <label for="question-3-answers-A">A) <img src="/src/images/unitedStates.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+                        <label for="question-3-answers-B">B) <img src="/src/images/Soviet_Union.webp"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+                        <label for="question-3-answers-C">C) <img src="/src/images/Flag_Republic_of_China.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+                        <label for="question-3-answers-D">D) <img src="/src/images/canadaFlag.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1912?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+                        <label for="question-4-answers-A">A) <img src="/src/images/swedenFlag.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+                        <label for="question-4-answers-B">B) <img src="/src/images/japanesFlag.jpg"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+                        <label for="question-4-answers-C">C) <img src="/src/images/Flag_of_Greece.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+                        <label for="question-4-answers-D">D) <img src="/src/images/unitedStates.jpg"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1916?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+                        <label for="question-5-answers-A">A) <img src="/src/images/germany-flag-2-500x333.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+                        <label for="question-5-answers-B">B) <img src="/src/images/swedenFlag.jpg"></label>
+                    </div>
+
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+                        <label for="question-5-answers-C">C) <img src="/src/images/Flag_of_Spain.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+                        <label for="question-5-answers-D">D) <img src="/src/images/Flag_of_Finland.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1920?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
+                        <label for="question-6-answers-A">A) <img src="/src/images/Flag_of_Belgium.svg.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
+                        <label for="question-6-answers-B">B) <img src="/src/images/Flag_of_Mexico.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
+                        <label for="question-6-answers-C">C) <img src="/src/images/Flag_of_Italy.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
+                        <label for="question-6-answers-D">D) <img src="/src/images/germany-flag-2-500x333.jpg"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1924?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
+                        <label for="question-7-answers-A">A) <img src="/src/images/francia-100x150.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
+                        <label for="question-7-answers-B">B) <img src="/src/images/Flag_of_Belgium.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
+                        <label for="question-7-answers-C">C) <img src="/src/images/Soviet_Union.webp"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-7-answers" id="question-7-answers-D" value="D" />
+                        <label for="question-7-answers-D">D) <img src="/src/images/Flag_of_South_Korea.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1928?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
+                        <label for="question-8-answers-A">A) <img src="/src/images/Flag_of_the_Netherlands.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
+                        <label for="question-8-answers-B">B) <img src="/src/images/United_Kingdom.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
+                        <label for="question-8-answers-C">C) <img src="/src/images/unitedStates.jpg"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
+                        <label for="question-8-answers-D">D) <img src="/src/images/Flag_of_Australia.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1932?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
+                        <label for="question-9-answers-A">A) <img src="/src/images/unitedStates.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
+                        <label for="question-9-answers-B">B) <img src="/src/images/Flag_of_Mexico.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-9-answers" id="question-9-answers-C" value="C" />
+                        <label for="question-9-answers-C">C) <img src="/src/images/Flag_of_Brazil.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
+                        <label for="question-9-answers-D">D) <img src="/src/images/Flag_of_Greece.svg.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1936?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
+                        <label for="question-10-answers-A">A) <img src="/src/images/germany-flag-2-500x333.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-10-answers" id="question-10-answers-B" value="B" />
+                        <label for="question-10-answers-B">B) <img src="/src/images/Flag_of_the_Netherlands.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-10-answers" id="question-10-answers-C" value="C" />
+                        <label for="question-10-answers-C">C) <img src="/src/images/francia-100x150.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
+                        <label for="question-10-answers-D">D) <img src="/src/images/Flag_of_Belgium.svg.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1948?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-11-answers" id="question-11-answers-A" value="A" />
+                        <label for="question-11-answers-A">A) <img src="/src/images/United_Kingdom.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-11-answers" id="question-11-answers-B" value="B" />
+                        <label for="question-11-answers-B">B) <img src="/src/images/swedenFlag.jpg"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-11-answers" id="question-11-answers-C" value="C" />
+                        <label for="question-11-answers-C">C) <img src="/src/images/Flag_of_Belgium.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-11-answers" id="question-11-answers-D" value="D" />
+                        <label for="question-11-answers-D">D) <img src="/src/images/Flag_of_Italy.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1952?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-12-answers" id="question-12-answers-A" value="A" />
+                        <label for="question-12-answers-A">A) <img src="/src/images/Flag_of_Finland.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-12-answers" id="question-12-answers-B" value="B" />
+                        <label for="question-12-answers-B">B) <img src="/src/images/canadaFlag.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-12-answers" id="question-12-answers-C" value="C" />
+                        <label for="question-12-answers-C">C) <img src="/src/images/Flag_of_Brazil.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-12-answers" id="question-12-answers-D" value="D" />
+                        <label for="question-12-answers-D">D) <img src="/src/images/Flag_of_Australia.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1960?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-13-answers" id="question-13-answers-A" value="A" />
+                        <label for="question-13-answers-A">A) <img src="/src/images/Flag_of_Italy.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-13-answers" id="question-13-answers-B" value="B" />
+                        <label for="question-13-answers-B">B) <img src="/src/images/Flag_of_the_Netherlands.png"></label>
+                    </div>
+
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-13-answers" id="question-13-answers-C" value="C" />
+                        <label for="question-13-answers-C">C) <img src="/src/images/francia-100x150.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-13-answers" id="question-13-answers-D" value="D" />
+                        <label for="question-13-answers-D">D) <img src="/src/images/Flag_of_Mexico.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1964?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-14-answers" id="question-14-answers-A" value="A" />
+                        <label for="question-14-answers-A">A) <img src="/src/images/japanesFlag.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-14-answers" id="question-14-answers-B" value="B" />
+                        <label for="question-14-answers-B">B) <img src="/src/images/Flag_Republic_of_China.png"></label>
+                    </div>
+
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-14-answers" id="question-14-answers-C" value="C" />
+                        <label for="question-14-answers-C">C) <img src="/src/images/Flag_of_Australia.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-14-answers" id="question-14-answers-D" value="D" />
+                        <label for="question-14-answers-D">D) <img src="/src/images/swedenFlag.jpg"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1968?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-15-answers" id="question-15-answers-A" value="A" />
+                        <label for="question-15-answers-A">A) <img src="/src/images/Flag_of_Mexico.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-15-answers" id="question-15-answers-B" value="B" />
+                        <label for="question-15-answers-B">B) <img src="/src/images/unitedStates.jpg"></label>
+                    </div>
+
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-15-answers" id="question-15-answers-C" value="C" />
+                        <label for="question-15-answers-C">C) <img src="/src/images/United_Kingdom.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-15-answers" id="question-15-answers-D" value="D" />
+                        <label for="question-15-answers-D">D) <img src="/src/images/Flag_of_Spain.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1972?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-16-answers" id="question-16-answers-A" value="A" />
+                        <label for="question-16-answers-A">A) <img src="/src/images/germany-flag-2-500x333.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-16-answers" id="question-16-answers-B" value="B" />
+                        <label for="question-16-answers-B">B) <img src="/src/images/Flag_of_South_Korea.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-16-answers" id="question-16-answers-C" value="C" />
+                        <label for="question-16-answers-C">C) <img src="/src/images/Flag_of_Spain.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-16-answers" id="question-16-answers-D" value="D" />
+                        <label for="question-16-answers-D">D) <img src="/src/images/Flag_of_Finland.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1976?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-17-answers" id="question-17-answers-A" value="A" />
+                        <label for="question-17-answers-A">A) <img src="/src/images/canadaFlag.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-17-answers" id="question-17-answers-B" value="B" />
+                        <label for="question-17-answers-B">B) <img src="/src/images/Flag_of_Greece.svg.png"></label>
+                    </div>
+
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-17-answers" id="question-17-answers-C" value="C" />
+                        <label for="question-17-answers-C">C) <img src="/src/images/swedenFlag.jpg"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-17-answers" id="question-17-answers-D" value="D" />
+                        <label for="question-17-answers-D">D) <img src="/src/images/japanesFlag.jpg"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1980?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-18-answers" id="question-18-answers-A" value="A" />
+                        <label for="question-18-answers-A">A) <img src="/src/images/Soviet_Union.webp"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-18-answers" id="question-18-answers-B" value="B" />
+                        <label for="question-18-answers-B">B) <img src="/src/images/Flag_of_Brazil.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-18-answers" id="question-18-answers-C" value="C" />
+                        <label for="question-18-answers-C">C) <img src="/src/images/Flag_of_Italy.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-18-answers" id="question-18-answers-D" value="D" />
+                        <label for="question-18-answers-D">D) <img src="/src/images/Flag_Republic_of_China.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1984?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-19-answers" id="question-19-answers-A" value="A" />
+                        <label for="question-19-answers-A">A) <img src="/src/images/unitedStates.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-19-answers" id="question-19-answers-B" value="B" />
+                        <label for="question-19-answers-B">B) <img src="/src/images/Flag_of_Italy.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-19-answers" id="question-19-answers-C" value="C" />
+                        <label for="question-19-answers-C">C) <img src="/src/images/francia-100x150.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-19-answers" id="question-19-answers-D" value="D" />
+                        <label for="question-19-answers-D">D) <img src="/src/images/Flag_of_Greece.svg.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1988?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-20-answers" id="question-20-answers-A" value="A" />
+                        <label for="question-20-answers-A">A) <img src="/src/images/Flag_of_South_Korea.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-20-answers" id="question-20-answers-B" value="B" />
+                        <label for="question-20-answers-B">B) <img src="/src/images/japanesFlag.jpg"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-20-answers" id="question-20-answers-C" value="C" />
+                        <label for="question-20-answers-C">C) <img src="/src/images/Flag_of_Australia.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-20-answers" id="question-20-answers-D" value="D" />
+                        <label for="question-20-answers-D">D) <img src="/src/images/Flag_Republic_of_China.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1992?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-21-answers" id="question-21-answers-A" value="A" />
+                        <label for="question-21-answers-A">A) <img src="/src/images/Flag_of_Spain.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-21-answers" id="question-21-answers-B" value="B" />
+                        <label for="question-21-answers-B">B) <img src="/src/images/swedenFlag.jpg"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-21-answers" id="question-21-answers-C" value="C" />
+                        <label for="question-21-answers-C">C) <img src="/src/images/Flag_of_Belgium.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-21-answers" id="question-21-answers-D" value="D" />
+                        <label for="question-21-answers-D">D) <img src="/src/images/Flag_of_South_Korea.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 1996?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-22-answers" id="question-22-answers-A" value="A" />
+                        <label for="question-22-answers-A">A) <img src="/src/images/unitedStates.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-22-answers" id="question-22-answers-B" value="B" />
+                        <label for="question-22-answers-B">B) <img src="/src/images/Flag_of_Finland.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-22-answers" id="question-22-answers-C" value="C" />
+                        <label for="question-22-answers-C">C) <img src="/src/images/United_Kingdom.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-22-answers" id="question-22-answers-D" value="D" />
+                        <label for="question-22-answers-D">D) <img src="/src/images/Flag_of_Australia.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 2000?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-23-answers" id="question-23-answers-A" value="A" />
+                        <label for="question-23-answers-A">A) <img src="/src/images/Flag_of_Australia.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-23-answers" id="question-23-answers-B" value="B" />
+                        <label for="question-23-answers-B">B) <img src="/src/images/canadaFlag.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-23-answers" id="question-23-answers-C" value="C" />
+                        <label for="question-23-answers-C">C) <img src="/src/images/Flag_of_Spain.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-23-answers" id="question-23-answers-D" value="D" />
+                        <label for="question-23-answers-D">D) <img src="/src/images/Flag_of_Mexico.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 2004?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-24-answers" id="question-24-answers-A" value="A" />
+                        <label for="question-24-answers-A">A) <img src="/src/images/Flag_of_Greece.svg.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-24-answers" id="question-24-answers-B" value="B" />
+                        <label for="question-24-answers-B">B) <img src="/src/images/Soviet_Union.webp"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-24-answers" id="question-24-answers-C" value="C" />
+                        <label for="question-24-answers-C">C) <img src="/src/images/United_Kingdom.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-24-answers" id="question-24-answers-D" value="D" />
+                        <label for="question-24-answers-D">D) <img src="/src/images/francia-100x150.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 2008?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-25-answers" id="question-25-answers-A" value="A" />
+                        <label for="question-25-answers-A">A) <img src="/src/images/Flag_Republic_of_China.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-25-answers" id="question-25-answers-B" value="B" />
+                        <label for="question-25-answers-B">B) <img src="/src/images/swedenFlag.jpg"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-25-answers" id="question-25-answers-C" value="C" />
+                        <label for="question-25-answers-C">C) <img src="/src/images/Flag_of_the_Netherlands.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-25-answers" id="question-25-answers-D" value="D" />
+                        <label for="question-25-answers-D">D) <img src="/src/images/Flag_of_Finland.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 2012?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-26-answers" id="question-26-answers-A" value="A" />
+                        <label for="question-26-answers-A">A) <img src="/src/images/United_Kingdom.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-26-answers" id="question-26-answers-B" value="B" />
+                        <label for="question-26-answers-B">B) <img src="/src/images/germany-flag-2-500x333.jpg"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-26-answers" id="question-26-answers-C" value="C" />
+                        <label for="question-26-answers-C">C) <img src="/src/images/Flag_of_Mexico.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-26-answers" id="question-26-answers-D" value="D" />
+                        <label for="question-26-answers-D">D) <img src="/src/images/japanesFlag.jpg"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 2016?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-27-answers" id="question-27-answers-A" value="A" />
+                        <label for="question-27-answers-A">A) <img src="/src/images/Flag_of_Brazil.svg.png"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-27-answers" id="question-27-answers-B" value="B" />
+                        <label for="question-27-answers-B">B) <img src="/src/images/United_Kingdom.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-27-answers" id="question-27-answers-C" value="C" />
+                        <label for="question-27-answers-C">C) <img src="/src/images/Flag_of_Italy.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-27-answers" id="question-27-answers-D" value="D" />
+                        <label for="question-27-answers-D">D) <img src="/src/images/Flag_of_Greece.svg.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div>
+            <div class="question container">
+                <h2>In 2021?</h2>
+                <div class="row answer">
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-28-answers" id="question-28-answers-A" value="A" />
+                        <label for="question-28-answers-A">A) <img src="/src/images/japanesFlag.jpg"> </label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-28-answers" id="question-28-answers-B" value="B" />
+                        <label for="question-28-answers-B">B) <img src="/src/images/Flag_of_Brazil.svg.png"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-28-answers" id="question-28-answers-C" value="C" />
+                        <label for="question-28-answers-C">C) <img src="/src/images/Soviet_Union.webp"></label>
+                    </div>
+                    <div class="ansewrInput">
+                        <input type="radio" name="question-28-answers" id="question-28-answers-D" value="D" />
+                        <label for="question-28-answers-D">D) <img src="/src/images/Flag_of_Australia.png"></label>
+                    </div>
+                </div>
+                <button type="submit">CHECK</button>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
