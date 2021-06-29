@@ -1,0 +1,20 @@
+{
+  "name": "sportsquiz",
+  "version": "1.0.0",
+  "description": "This is a PHP project for a sports quiz webpage.",
+  "main": "index.js",
+
+  "scripts": {
+    "sass:watch": "sass --watch $(pwd)/src/kick-off_workshop $(pwd)/build/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghetterking/sportsquiz.git"
+  },
+  "author": "CaroWima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghetterking/sportsquiz/issues"
+  },
+  "homepage": "https://github.com/ghetterking/sportsquiz#readme"
+}
