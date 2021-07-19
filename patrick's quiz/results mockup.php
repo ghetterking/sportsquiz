@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>PHP Quiz</title>
+        <title>MORTAL ARTS KWIZ RESULTS!</title>
         <link rel="stylesheet" type="text/css" href="style mockup.css" />
     </head>
     <body>
@@ -56,8 +56,11 @@
                         if ($answer19 == "D") { $totalCorrect++; }
                         if ($answer20 == "C") { $totalCorrect++; }
                         
-                        echo "<h2>$totalCorrect from a total of 20 possible pts!</h2>";
-                        echo "</li><li>";
+                        $percentageCorrect = $totalCorrect * 5;
+
+                        echo "<h2>$totalCorrect from a total of twenty possible points!</h2>";
+                        echo "<h3>That's $percentageCorrect% correct!</h3>";
+                        echo "<li><h4>";
                         if ($totalCorrect > 20) {
                             echo "Goddamn it, i hate this hacking crap!";
                         } elseif ($totalCorrect == 20) {
@@ -93,7 +96,7 @@
                         } elseif ($totalCorrect == 5) {
                             echo "Oh, I'm sorry. Did i break your concentration?";
                         } elseif ($totalCorrect == 4) {
-                            echo "You won't believe what time it is, man. It's 4/20 man!";
+                            echo "Smoke weed everyday.";
                         } elseif ($totalCorrect == 3) {
                             echo "Game over, man, game over!";
                         } elseif ($totalCorrect == 2) {
@@ -104,8 +107,14 @@
                             echo "You get nothing, you lose, good day sir!";
                         } elseif ($totalCorrect < 0) {
                             echo "What you’ve just said is one of the most insanely idiotic things I have ever heard. At no point in your rambling, incoherent response were you even close to anything that could be considered a rational thought. Everyone in this room is now dumber for having listened to it. I award you no points, and may God have mercy on your soul.";}
-                        echo " - Wanna try again? Go ahead...make my day. Now go away or I shall taunt you a second time!</li>";
+                        echo "</h4>";
                     ?>
+                </li>
+                <li>
+                    <div class="question">
+                        <label>Wanna try again? Press back. Go ahead...make my day.</label>
+                    </div>
+                    <h4>Now go away or I shall taunt you a second time!</h4>
                 </li>
             </ul>
         </div>

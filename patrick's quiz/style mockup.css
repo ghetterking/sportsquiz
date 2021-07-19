@@ -1,96 +1,90 @@
-input {
-    background-color: #8c00fc;
-    font-size: xx-large;
-    font-weight: 900;
-    padding: 14px;
+h1, h2, h3, h4, .question {                                            /*center text*/
+    text-align: center;
 }
 
-label {
-    background-color: hotpink;
+body, h1, h2, h3, h4, li, ol, ul, .question {               /*standard borders; custom borders specfied below*/
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    margin: 2%;
+}
+
+h3, li, ol, ul, .question {                                 /*small padding */
+    padding: 2%;
+}
+
+h1, h2, h3, h4, input {                                     /*boldify*/
+    font-weight: bold;
+}
+
+div {                                                       /*DONT MESS WITH ME!*/
+    padding: 5% 28% 5% 28%;
+}
+
+#page-wrap {                                                /*hopefully phone sized*/
+    width: 40%;
 }
 
 body {
     background-color: #0827F5;
-    border: solid;
     border-radius: 200px;
-    border-color: black;
     border-width: 30px;
-    margin: 1%;
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 45px;
     color: fuchsia;
-    border: solid;
-    border-radius: 25px;
-    border-color: black;
-    border-width: 2px;
-    padding: 0 27% 0 27%;
     background-color: springgreen;
-    margin: 1%;
+    border-radius: 25px;
+    border-width: 10px;
+    padding: 7%;
+}
+
+h2 {
+    font-size: xx-large;
+    color: #f5ff00;
+    background-color: #be03fd;
+    border-radius: 15px;
+    border-color: #08ff08;
+    border-width: 4px;
+    padding: 4%;
 }
 
 h3 {
     font-size: x-large;
     color: #01fe01;
-    padding: 1%;
-    background-color: red;
-    border: solid;
+    background-color: #ff073a;
     border-radius: 8px;
-    border-color: black;
-    border-width: 2px;
-    margin: 1%;
 }
 
-#page-wrap {
-    width: 40%;
-}
-
-.question {
-    width: 99%;
-    padding: 1%;
-    background-color: yellow;
-    border: solid;
-    border-radius: 8px;
-    border-color: black;
-    border-width: 2px;
-    margin: 1%;
+h4 {
+    font-size: x-large;
+    border: 0;
 }
 
 li {
-    padding: 1%;
     background-color: #40A4FF;
-    border: solid;
     border-radius: 15px;
-    border-color: black;
-    border-width: 2px;
-    margin: 1%;
 }
 
-ol {
-    padding: 3%;
+ol, ul {
     background-color: orange;
-    border: solid;
     border-radius: 25px;
-    border-color: black;
-    border-width: 2px;
-    margin: 1%;
+    border-width: 5px;
 }
 
-ul {
-    padding: 3%;
-    background-color: orange;
-    border: solid;
-    border-radius: 25px;
-    border-color: black;
-    border-width: 2px;
-    margin: 1%;
-}
-
-div {
-    padding: 5% 28% 5% 28%;
-}
-
-h2 {
+input {
+    background-color: hotpink;
     font-size: xx-large;
+}
+
+.question {
+    background-color: yellow;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+label {
+    background-color: #8c00fc;
+    font-size: large;
 }
