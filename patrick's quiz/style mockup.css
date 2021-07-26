@@ -1,4 +1,4 @@
-h1, h2, h3, h4, .question {                                            /*center text*/
+h1, h2, h3, h4, .question, input {                          /*center text*/
     text-align: center;
 }
 
@@ -45,8 +45,6 @@ h2 {
     color: #f5ff00;
     background-color: #be03fd;
     border-radius: 15px;
-    border-color: #08ff08;
-    border-width: 4px;
     padding: 4%;
 }
 
@@ -73,11 +71,6 @@ ol, ul {
     border-width: 5px;
 }
 
-input {
-    background-color: hotpink;
-    font-size: xx-large;
-}
-
 .question {
     background-color: yellow;
     border-radius: 8px;
@@ -87,4 +80,10 @@ input {
 label {
     background-color: #8c00fc;
     font-size: large;
+}
+
+input {
+    background-color: hotpink;
+    font-size: xx-large;
+    padding: 30px 150px 30px 150px;
 }
